@@ -1,0 +1,16 @@
+RollIntent roll a die
+RollIntent roll a {numsides} sided die
+RollIntent roll a die with {numsides} sides
+RollIntent roll a d {numsides}
+RollIntent roll {numdice} {numsides} sided dice
+RollIntent roll {numdice} dice
+UntilIntent roll a {numsides} die until you get a {result}
+UntilIntent roll a {numsides} die until you see a {result}
+UntilIntent roll a {numsides} die until a {result} comes up
+UntilIntent roll a d {numsides} until you get a {result}
+UntilIntent roll a d {numsides} until a {result} comes up
+UntilIntent roll a d {numsides} until you see a {result}
+UntilIntent roll until a {result} comes up
+UntilIntent roll until you see a {result}
+UntilIntent roll until you get a {result}
+EggIntent roll for initiative

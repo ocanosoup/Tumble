@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "RollIntent",
+      "slots": [{
+        "name": "numsides",
+        "type": "AMAZON.NUMBER"
+      },{
+        "name": "numdice",
+        "type": "AMAZON.NUMBER"
+      }]
+    },{
+    "intent": "UntilIntent",
+      "slots": [{
+        "name": "numsides",
+        "type": "AMAZON.NUMBER"
+      },{
+        "name": "result",
+        "type": "AMAZON.NUMBER"
+      }]
+    },
+    {
+      "intent": "EggIntent"
+    }
+  ]
+}
